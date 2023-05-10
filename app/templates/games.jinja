@@ -1,0 +1,7 @@
+{%extends 'base.jinja' %}
+{%block content%}
+   <h3 class ='games'>Games</h3>
+    {%for game in Games%}
+    <P>{{game}}</P>
+    {%endfor%}
+{% endblock %}
